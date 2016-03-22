@@ -1,0 +1,252 @@
+/* Styles go here */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica,Arial;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  color: #333;
+}
+
+.background {
+  position: relative;
+  display: table;
+  width: 100%;
+  height: 80%;
+  background: url(img/h.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#class-form {
+  margin: 6% 0 3% 20%;
+}
+
+#box {
+  background-color: #fbfbfb;
+  border: 1px solid #fbfbfb;
+  width: 490px;
+  opacity:0.6;
+}
+
+.header {
+  padding: 15px 0 0 20px;
+  font-size:35px;
+  color: #003f6d;
+}
+
+form input[type="text"],
+form input[type="email"]{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 0 0 5px 20px;
+  padding: 7px;
+  width: 70%;
+  height: 45px;
+  display: inline;
+  background: white;
+  border: 2px solid #003f6d;
+}
+
+select {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  -webkit-padding-end: 10px;
+  -moz-padding-end: 10px;
+  -webkit-padding-start: 2px;
+  -moz-padding-start: 2px;
+  position:relative;
+  margin: 0 20px 5px 20px;
+  padding: 10px 5px 10px 5px;
+  width: 70%;
+  font-size: 1em;
+  text-overflow: ellipsis;
+  text-align: center;
+  color: #003f6d;
+  overflow: hidden;
+  background-color: white;
+  border: 2px solid #333;
+  border-radius: 2px;
+}
+
+.form-control {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 0 0 5px 0;
+  padding: 5px;
+  width: 200px;
+  height: 34px;
+  display: inline;
+  background: white;
+  border: 1px solid #003f6d;
+}
+
+#submitForm {
+  margin-top: 0;
+  margin-bottom:7px;
+  outline:none;
+
+  margin-left: 15%;
+  width: 50%;
+  height: 2em;
+  font-size: 1em;
+  color: black;
+  border: 2px solid black;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius:1em;
+  line-height:1em;
+}
+
+.image {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+    ), url(img/earthquake.jpg) ;
+    width: 100%;
+    height: 70%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h2 {
+  color:#fff;
+  font-weight:500;
+  font-size: 2rem;
+  text-transform:uppercase;
+}
+h3{text-align:center;
+  font-weight:600;
+}
+
+
+.center_button{
+    position:absolute;
+    text-align:center;
+    top: 55%;
+    width: 100%
+}
+
+
+#learnButton{  
+  width:12rem;
+  font-weight: 700;
+  font-size: 18px;
+  outline: none;
+line-height:1.7;
+color: white;
+  border: 2px solid black;
+  background-color: black;
+  border-radius: 2rem;
+  margin-top:2rem; margin-left: auto;
+margin-right: auto;}
+
+
+#map{
+  height:80%;
+  padding: 0;
+  margin: 1em;
+}
+
+.container{
+  padding-top:1.5rem;
+}
+
+#mapHead h3{
+  color: black;
+}
+
+  .bar {
+    fill: orange;
+  }
+  
+  .bar:hover {
+    fill: black;
+  }
+  
+  .axis {
+    font: 10px sans-serif;
+  }
+  
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: orange;
+    shape-rendering: crispEdges;
+  }
+  
+  .x.axis path {
+    display: none;
+  }
+
+#earthquake {
+  width: 95%;
+  height: 550px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+.basics span {
+  margin-top: 20px;
+  font-weight: 700;
+
+  font-size: 20px;
+
+  color:blue;
+}
+
+.images img{width: 100%; margin: 20px auto;
+
+
+@media(max-width:768px){
+  .navbar-default .navbar-nav > li a{
+ color:white;
+ font-weight:700;
+ text-transform:uppercase;
+}
+.navbar-default .navbar-form {
+    border: none;
+}
+.navbar-default .navbar-nav > li a:hover{
+ background-color:red;
+color:white;
+  
+}
+
+#form-div {
+width:28rem;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
